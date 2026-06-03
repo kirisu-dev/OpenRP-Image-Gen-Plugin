@@ -1,3 +1,11 @@
 # OpenRP Image Gen Plugin
 
-[![Open In Colab](https://google.com)](https://google.com](https://colab.research.google.com/drive/1HDWEkXQd-8g0ffZiglvlPcP8GJFxS3D1)
+A Google Colab notebook for generating images using the Kasumi model.
+
+## Links
+
+🚀 **Open in Colab**
+
+[![Open In Colab](https://google.com)](https://google.com)
+
+---
