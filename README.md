@@ -25,4 +25,7 @@ A plugin for generating images for Blue Archive Characters in OpenRP.ai.
 ---
 
 ## Installation
-1. **Download**: Click [**➡️ Download OpenRP Extension (.zip)**](https://github.com/kirisu-dev/OpenRP-Image-Gen-Plugin/raw/main/OpenRP%20Extension.zip) to download the extension, then extract/unzip it on your computer.
+### Extension Setup
+1. **Download**: Click [**➡️ OpenRP Plugin (.zip)**](https://github.com/kirisu-dev/OpenRP-Image-Gen-Plugin/blob/main/OpenRP_ImageGen_Plugin.zip) to download the extension, then extract/unzip it on your computer.
+2. **Create Extension**: In Google Chrome, navigate to `chrome://extensions/`. Toggle **DEVELOPER MODE** and **LOAD UNPACKED**. Select the **OPENRP_IMAGE_GEN_PLUGIN** Folder.
+chrome://extensions/
