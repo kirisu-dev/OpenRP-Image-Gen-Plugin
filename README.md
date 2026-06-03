@@ -45,6 +45,7 @@ A plugin for generating images for Blue Archive Characters in OpenRP.ai.
 # Tagging tips
 - Anima Base V1 is trained on danbooru tags.
 ###SCENE PARAMETERS
+
 | Parameters | Notes |
 |---|---|
 | Subject | Keep unchanged. This makes the image gen more focused on the character |
