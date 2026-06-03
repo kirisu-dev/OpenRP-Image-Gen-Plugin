@@ -45,7 +45,8 @@ A plugin for generating images for Blue Archive Characters in OpenRP.ai.
 
 # Tagging Tips
 
-Anima Base V1 is trained on Danbooru tags. 
+- The **Scene Parameters** can be manually adjusted for better images.
+- Anima Base V1 is trained on Danbooru tags. 
 
 ### SCENE PARAMETERS
 
@@ -58,3 +59,6 @@ Anima Base V1 is trained on Danbooru tags.
 | Time | Morning, Afternoon, Night, Midnight |
 | Clothing | It can be anything visible on the body [clothing, accessories, tattoos, explicit parts] |
 | Objects | Objects that should be on the image. |
+
+---
+
