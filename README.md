@@ -32,5 +32,5 @@ A plugin for generating images for Blue Archive Characters in OpenRP.ai.
 
 ### Google Colab Setup
 1. **NGROK_KEY**: Create an [NGROK Account](https://dashboard.ngrok.com/) Account and copy Your AuthToken.
-2. **GOOGLE COLAB**: Open the [Colab Notebook](https://colab.research.google.com/github/kirisu-dev/OpenRP-Image-Gen-Plugin/blob/main/Kasumi_Image_Gen_V1.ipynb) and create a **🔑SECRET** named **NGROK_KEY**. Copy your AuthToken from NGROK as value.
-3. 
+2. **Google Colab**: Open the [Colab Notebook](https://colab.research.google.com/github/kirisu-dev/OpenRP-Image-Gen-Plugin/blob/main/Kasumi_Image_Gen_V1.ipynb) and create a **🔑SECRET** named **NGROK_KEY**. Copy your AuthToken from NGROK as value.
+3. **Run All** and allow all permissions.
