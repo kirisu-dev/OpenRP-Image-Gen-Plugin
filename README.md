@@ -38,3 +38,4 @@ A plugin for generating images for Blue Archive Characters in OpenRP.ai.
 #Quickstart
 1. Click **Test Server** to check if the link is valid.
 2. Click **Select Character** to load the style and character. [Available Characters: Kasumi, Natsu, Kei]
+3. Open a chat with any of the characters and click **Send Chat** to generate an image.
