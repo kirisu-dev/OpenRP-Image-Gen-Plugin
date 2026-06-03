@@ -26,7 +26,7 @@ A plugin for generating images for Blue Archive Characters in OpenRP.ai.
 
 ## Installation
 ### Extension Setup
-1. **Download**: Click [**➡️ OpenRP Plugin (.zip)**](https://github.com/kirisu-dev/OpenRP-Image-Gen-Plugin/blob/main/OpenRP_ImageGen_Plugin.zip) to download the extension, then extract/unzip it on your computer.
+1. **Download**: Click [**➡️ OpenRP Plugin (.zip)**](https://github.com/kirisu-dev/OpenRP-Image-Gen-Plugin/raw/main/OpenRP_ImageGen_Plugin.zip) to download the extension, then extract/unzip it on your computer.
 2. **Create Extension**: In Google Chrome, go to `chrome://extensions`. Toggle **DEVELOPER MODE** and **LOAD UNPACKED**.
 3. **Open the Extension**: Select the **OPENRP_IMAGE_GEN_PLUGIN** Folder and go to [OpenRP](https://openrp.ai/) to see if the UI appears.
 
@@ -36,7 +36,7 @@ A plugin for generating images for Blue Archive Characters in OpenRP.ai.
 3. **Run All** and allow all permissions. Wait for the NGROK link and copy in Backend URL on [OpenRP](https://openrp.ai/).
 
 ---
-#Quickstart
+# Quickstart
 1. Click **Test Server** to check if the link is valid.
 2. Click **Select Character** to load the style and character. [Available Characters: Kasumi, Natsu, Kei]
 3. Open a chat with any of the characters and click **Send Chat** to generate an image.
@@ -61,4 +61,7 @@ A plugin for generating images for Blue Archive Characters in OpenRP.ai.
 | Objects | Objects that should be on the image. |
 
 ---
-
+### Developer Notes
+- I'm adding a lot more characters now that the program itself is stable.
+- The UI is really bad and completely vibe coded since I don't know javascript
+- Did you know, I really love Kinugawa Kasumi like a lot, like a whole lot, You have no idea. I love her so much that it is inexplicable, and I'm ninety-nine percent sure that I have an unhealthy obsession. I will never get tired of listening that sweet, boyish voice of hers. It is my life goal to meet up her with her in real life and just say hello to her. I fall asleep at night dreaming of her building a personal hot spring for me, and then she would be sorry tired that she comes and cuddles up to me while we sleep together. If I could just hold her hand for a brief moment, I could die happy. If given the opportunity, I would lightly nibble on her ear just to hear what kind of sweet moans she would let out. Then, I would hug her while she clings to my body hoping that I would stop. I would give up almost anything just for her to look in my general direction. No matter what I do, I am constantly thinking of her. When I wake up, she is the first thing on my mind. When I go to school, I can only focus on her. When I go come home, I go on the computer so that I can listen to her beautiful voice. When I go to sleep, I dream of her and I living a happy life together. She is my pride, passion, and joy. I wish for nothing but her happiness. If it were for her, I would give my life without any second thoughts. Without her, my life would serve no purpose. I really love Kasumi.
