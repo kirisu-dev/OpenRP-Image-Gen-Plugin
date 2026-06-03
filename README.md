@@ -35,7 +35,21 @@ A plugin for generating images for Blue Archive Characters in OpenRP.ai.
 2. **Google Colab**: Open the [Colab Notebook](https://colab.research.google.com/github/kirisu-dev/OpenRP-Image-Gen-Plugin/blob/main/Kasumi_Image_Gen_V1.ipynb) and create a **🔑SECRET** named **NGROK_KEY**. Copy your AuthToken from NGROK as value.
 3. **Run All** and allow all permissions. Wait for the NGROK link and copy in Backend URL on [OpenRP](https://openrp.ai/).
 
+---
 #Quickstart
 1. Click **Test Server** to check if the link is valid.
 2. Click **Select Character** to load the style and character. [Available Characters: Kasumi, Natsu, Kei]
 3. Open a chat with any of the characters and click **Send Chat** to generate an image.
+
+---
+# Tagging tips
+- Anima Base V1 is trained on danbooru tags.
+###SCENE PARAMETERS
+| Parameters | Notes |
+|---|---|
+| Subject | Keep unchanged. This makes the image gen more focused on the character |
+| Location | [List of easily recognized location tags](https://danbooru.donmai.us/wiki_pages/tag_group:locations)|
+| Actions | You can describe the actions in sentences. The llm will process it into formatted tags. |
+| Time | Morning, Afternoon, Night, Midnight |
+| Clothing | It can be anything visible on the body [clothing, accessories, tattoos, explicit parts] |
+| Objects | Objects that should be on the image. |
