@@ -42,10 +42,13 @@ A plugin for generating images for Blue Archive Characters in OpenRP.ai.
 3. Open a chat with any of the characters and click **Send Chat** to generate an image.
 
 ---
-# Tagging tips
-- Anima Base V1 is trained on danbooru tags.
 
-###SCENE PARAMETERS
+# Tagging Tips
+
+Anima Base V1 is trained on Danbooru tags. 
+
+### SCENE PARAMETERS
+
 
 | Parameters | Notes |
 |---|---|
