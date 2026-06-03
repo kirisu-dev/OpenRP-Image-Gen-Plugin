@@ -19,8 +19,8 @@ A plugin for generating images for Blue Archive Characters in OpenRP.ai.
 
 | Requirement | Notes |
 |---|---|
-| Google Colab | Free or Pro. Pro recommended for longer runs. |
-| GPU runtime | Required. Set Runtime → Change runtime type → T4 GPU or better. |
+| Google Colab | Free. |
+| GPU runtime | Required. Set Runtime → Change runtime type → T4 GPU. |
 | NGROK_KEY | Required. Get from <a href="https://dashboard.ngrok.com/" target="_blank"><img src="https://img.shields.io/badge/NGROK-blue.svg" alt="NGROK"></a> |
 ---
 
