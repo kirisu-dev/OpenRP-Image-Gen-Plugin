@@ -28,6 +28,7 @@ function startPlugin() {
 
         let imageContainer, sendButton;
         const sceneInputs = {};
+        let characterDatabase = {};
 
         // =========================
         // CHAT EXTRACTION
@@ -375,46 +376,6 @@ function startPlugin() {
                 cursor: "pointer"
             });
 
-            testBtn.onclick = async () => {
-                if (!API_URL) {
-                    alert("Set a valid URL");
-                    return;
-                }
-                testBtn.innerText = "Testing...";
-
-                try {
-                    const res = await fetch(API_URL + "/character/select", {
-                        method: "POST",
-                        headers: { "Content-Type": "application/json" },
-                        body: JSON.stringify({
-                            character: "Kasumi",
-                            style: "DEFAULT",
-                            chat: []
-                        })
-                    });
-
-                    if (res.ok) {
-                        alert("✅ Server is reachable");
-                    } else {
-                        alert("⚠️ Server responded but not OK: " + res.status);
-                    }
-
-                } catch (e) {
-                    alert("❌ Server unreachable");
-                }
-
-                testBtn.innerText = "Test Server";
-            };
-
-            
-
-            const content = document.createElement("div");
-            Object.assign(content.style, {
-                flex: "1",
-                overflowY: "auto",
-                padding: "10px"
-            });
-
             // =========================
             // CHARACTER SELECTOR (NEW)
             // =========================
@@ -427,16 +388,88 @@ function startPlugin() {
             characterSelect.style.color = "white";
             characterSelect.style.border = "1px solid #444";
 
-            const characters = ["Kasumi", "Natsu", "Kei"];
+            const outfitSelect = document.createElement("select");
+            outfitSelect.style.width = "100%";
+            outfitSelect.style.marginBottom = "10px";
+            outfitSelect.style.padding = "5px";
+            outfitSelect.style.background = "#222";
+            outfitSelect.style.color = "white";
+            outfitSelect.style.border = "1px solid #444";
 
-            characterSelect.innerHTML = "";
+            function updateOutfits() {
+                const character = characterSelect.value;
+                const data = characterDatabase[character];
+                
+                outfitSelect.innerHTML = "";
+    
+                if (!data || !data.outfit) return;
 
-            characters.forEach(name => {
-                const opt = document.createElement("option");
-                opt.value = name;
-                opt.innerText = name;
-                characterSelect.appendChild(opt);
+                Object.keys(data.outfit).forEach(outfitName => {
+                    const opt = document.createElement("option");
+                    opt.value = outfitName;
+                    opt.innerText = outfitName;
+                    outfitSelect.appendChild(opt);
+                });
+            }
+
+            function populateCharacters() {
+                characterSelect.innerHTML = "";
+
+                Object.keys(characterDatabase).forEach(name => {
+                    const opt = document.createElement("option");
+                    opt.value = name;
+                    opt.innerText = name;
+                    characterSelect.appendChild(opt);
+                });
+                if (characterSelect.options.length > 0) {
+                    characterSelect.selectedIndex = 0;
+                }
+                updateOutfits();
+            }
+            
+            characterSelect.addEventListener("change", updateOutfits);
+            
+            const content = document.createElement("div");
+            Object.assign(content.style, {
+                flex: "1",
+                overflowY: "auto",
+                padding: "10px"
             });
+
+            
+
+            testBtn.onclick = async () => {
+                if (!API_URL) {
+                    alert("Set a valid URL");
+                    return;
+                }
+
+                testBtn.innerText = "Testing...";
+
+                try {
+                    const res = await fetch(API_URL + "/characters", {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        body: JSON.stringify({})
+                    });
+
+                    const data = await res.json();
+
+                    characterDatabase = data;
+
+                    populateCharacters();
+
+                    alert("✅ Server reachable + characters loaded");
+
+                } catch (e) {
+                    alert("❌ Server unreachable");
+                }
+
+                testBtn.innerText = "Test Server";
+            };
+
 
             const styles = [
                 "DEFAULT",
@@ -468,6 +501,7 @@ function startPlugin() {
             content.appendChild(testBtn);
 
             content.appendChild(characterSelect);
+            content.appendChild(outfitSelect);
             content.appendChild(styleSelect);
 
             function clearHistory() {
@@ -509,6 +543,7 @@ function startPlugin() {
                             body: JSON.stringify({
                                 character: characterSelect.value,
                                 style: styleSelect.value,
+                                outfit : outfitSelect.value,
                                 chat: messageBuffer.slice()
                             })
                         }
