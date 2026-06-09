@@ -69,6 +69,10 @@ A plugin for generating images for Blue Archive Characters in OpenRP.ai.
 |Trinity|Yutori Natsu|
 ||Yurizono Seia|
 ||Nakamasa Ichika|
+|Make-up Work Club|Shimoe Koharu|
+||Ajitani Hifumi|
+||Shirasu Azusa|
+||Uruwa Hanako|
 |Abydos|Takanashi Hoshino|
 |Millennium|Tendou Kei|
 
