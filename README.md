@@ -38,7 +38,7 @@ A plugin for generating images for Blue Archive Characters in OpenRP.ai.
 ---
 # Quickstart
 1. Click **Test Server** to check if the link is valid.
-2. Click **Select Character** to load the style and character. [Available Characters: Kasumi, Natsu, Kei]
+2. Click **Select Character** to load the style and character.
 3. Open a chat with any of the characters and click **Send Chat** to generate an image.
 
 ---
@@ -59,6 +59,22 @@ A plugin for generating images for Blue Archive Characters in OpenRP.ai.
 | Time | Morning, Afternoon, Night, Midnight |
 | Clothing | It can be anything visible on the body [clothing, accessories, tattoos, explicit parts] |
 | Objects | Objects that should be on the image. |
+
+---
+### Available Characters
+|School|Student|
+|:---:|:---:|
+|Gehenna|Kinugawa Kasumi|
+||Sorasaki Hina|
+|Trinity|Yutori Natsu|
+||Yurizono Seia|
+||Nakamasa Ichika|
+|Abydos|Takanashi Hoshino|
+|Millennium|Tendou Kei|
+
+---
+### Planned features when I get back
+- Improved tag input for the UI with implemented descriptions and recommendations.
 
 ---
 ### Developer Notes
