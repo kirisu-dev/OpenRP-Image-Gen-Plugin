@@ -72,7 +72,7 @@ A plugin for generating images for Blue Archive Characters in OpenRP.ai.
 |Make-up Work Club|Shimoe Koharu|
 ||Ajitani Hifumi|
 ||Shirasu Azusa|
-||Uruwa Hanako|
+||Urawa Hanako|
 |Abydos|Takanashi Hoshino|
 |Millennium|Tendou Kei|
 
