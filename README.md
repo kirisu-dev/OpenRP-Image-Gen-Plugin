@@ -81,6 +81,7 @@ A plugin for generating images for Blue Archive Characters in OpenRP.ai.
 ---
 ### Planned features when I get back
 - Improved tag input for the UI with implemented descriptions and recommendations.
+- Favorite tag combinations. Naming feature, auto add when **apply tag** is clicked with custom grouping. (Good for getting certain action combinations and clothes)
 
 ---
 ### Developer Notes
