@@ -79,9 +79,10 @@ A plugin for generating images for Blue Archive Characters in OpenRP.ai.
 |Millennium|Tendou Kei|
 
 ---
-### Planned features when I get back
+### Planned features when I get back (or if anyone wants to contribute)
 - Improved tag input for the UI with implemented descriptions and recommendations.
-- Favorite tag combinations. Naming feature, auto add when **apply tag** is clicked with custom grouping. (Good for getting certain action combinations and clothes)
+- Favorite tag combinations. Naming feature, auto add when **apply tag** is clicked with custom grouping. (Good for getting certain action combinations and clothes).
+- Direct chatbox editing for images and mobile friendly UI
 
 ---
 ### Developer Notes
