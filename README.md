@@ -73,6 +73,8 @@ A plugin for generating images for Blue Archive Characters in OpenRP.ai.
 ||Ajitani Hifumi|
 ||Shirasu Azusa|
 ||Urawa Hanako|
+|Vigilante Crew|Uzawa Reisa|
+||Morizuki Suzumi|
 |Abydos|Takanashi Hoshino|
 |Millennium|Tendou Kei|
 
