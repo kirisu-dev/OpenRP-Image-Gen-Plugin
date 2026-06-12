@@ -77,11 +77,16 @@ A plugin for generating images for Blue Archive Characters in OpenRP.ai.
 ||Morizuki Suzumi|
 |Abydos|Takanashi Hoshino|
 |Millennium|Tendou Kei|
+|Veritas|Konuri Maki|
+||Otose Kotama|
+||Omagari Hare|
+||Kagami Chihiro|
 
 ---
 ### Planned features when I get back (or if anyone wants to contribute)
 - Improved tag input for the UI with implemented descriptions and recommendations.
 - Favorite tag combinations. Naming feature, auto add when **apply tag** is clicked with custom grouping. (Good for getting certain action combinations and clothes).
+- Tag locking especially for outfits.
 - Direct chatbox editing for images and mobile friendly UI
 
 ---
