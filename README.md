@@ -89,6 +89,11 @@ A plugin for generating images for Blue Archive Characters in OpenRP.ai.
 - Tag locking especially for outfits.
 - Direct chatbox editing for images and mobile friendly UI
 
+
+---
+### Some very ambitious plans (dont expect too much)
+- Manga Panel Mode - Create sequential images. Create chat bubbles with the chat (Not image generation) and put on the format provided.
+
 ---
 ### Developer Notes
 - I'm adding a lot more characters now that the program itself is stable.
